@@ -4,5 +4,6 @@ window.onload = function () {
 
 // redirect to app, passing along all query parameters
 function goBackToApp() {
-	window.location.href = 'app://example.com' + window.location.search;
+	window.location.href =
+		'app://mobile.irrigationguardian.com' + window.location.search;
 }
